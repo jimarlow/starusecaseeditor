@@ -1,0 +1,38 @@
+:Schema:
+UseCase.sss
+
+:Name:
+Write the use case name here.
+
+:Parents:
+Write the names of the parent use cases here.
+If this use case has no parents write None here.
+
+:Actors:
+Write the names of the actors here.
+
+:Brief description:
+Write a brief description of your use case here. This description should be no more than a couple of paragraphs.
+
+:Preconditions:
+Write the first precondition here.
+If the use case has no preconditions, write None here.
+
+:Flow:
+Write the main flow here.
+Each step should be time-ordered and declarative.
+:ext:WriteExtensionPointsLikeThis
+Note that extension points are NOT numbered.
+If you need to show nested steps
++ Indent them by one plus sign for each level of indent like this.
+++ And like this
+Include other use cases like this :inc:AnotherUseCase.
+This is the final step.
+
+:Postconditions:
+Write the postconditions here.
+If there are no postconditions write None here.
+
+:Alternative flows:
+List the names of the alternative flows here, one on each line.
+If there are no alternateive flows, write None here.

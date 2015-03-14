@@ -1,0 +1,11 @@
+:Schema:
+Actor.sss
+
+:Name:
+Borrower
+
+:Parents:
+None
+
+:Brief description:
+A person or institution that can borrow books from the Orne Library

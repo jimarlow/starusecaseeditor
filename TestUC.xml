@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<usecase>
+    <schema>
+        <line>
+            UseCase.sss
+        </line>
+    </schema>
+    <name>
+        <line>
+            TestUC
+        </line>
+    </name>
+    <parents>
+        <line>
+            Write the names of the parent use cases here.
+        </line>
+        <line>
+            If this use case has no parents write None here.
+        </line>
+    </parents>
+    <actors>
+        <line>
+            Write the names of the actors here.
+        </line>
+    </actors>
+    <brief_description>
+        <line>
+            Write a brief description of your use case here. This description should be no more than a couple of paragraphs.
+        </line>
+    </brief_description>
+    <preconditions>
+        <line>
+            Write the first precondition here.
+        </line>
+        <line>
+            If the use case has no preconditions, write None here.
+        </line>
+    </preconditions>
+    <flow_of_events>
+        <line>
+            Write the main flow here.
+        </line>
+        <line>
+            Each step should be time-ordered and declarative.
+        </line>
+        <line>
+            :ext:WriteExtensionPointsLikeThis
+        </line>
+        <line>
+            Note that extension points are NOT numbered.
+        </line>
+        <line>
+            If you need to show nested steps
+        </line>
+        <line>
+            + Indent them by one plus sign for each level of indent like this.
+        </line>
+        <line>
+            ++ And like this
+        </line>
+        <line>
+            Include other use cases like this :inc:AnotherUseCase.
+        </line>
+        <line>
+            This is the final step.
+        </line>
+    </flow_of_events>
+    <postconditions>
+        <line>
+            Write the postconditions here.
+        </line>
+        <line>
+            If there are no postconditions write None here.
+        </line>
+    </postconditions>
+    <alternative_flows>
+        <line>
+            List the names of the alternative flows here, one on each line.
+        </line>
+        <line>
+            If there are no alternateive flows, write None here.
+        </line>
+    </alternative_flows>
+</usecase>
